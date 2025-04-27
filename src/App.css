@@ -30,7 +30,8 @@ img {
   display: block;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+.chats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
