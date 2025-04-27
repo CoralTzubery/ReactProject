@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react';
-import './app.css';
+import './app.scss';
 
 function App() {
   return (
@@ -7,7 +7,6 @@ function App() {
       <SiteNav />
       <Main title="WhatIsApp?">
         <ChatsList />
-      
       </Main>
 
 
@@ -59,7 +58,7 @@ type ChatProps = {
 };
 function Chat({ pictureUrl, name, description }: ChatProps) {
   return (
-    <li>
+    <li className='chat'>
       <img src={pictureUrl} alt="" />
       <p>{name}</p>
       <p>{description}</p>
