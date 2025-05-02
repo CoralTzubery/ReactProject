@@ -1,5 +1,6 @@
-import { PropsWithChildren } from 'react';
+import { Main } from "./components/Main"
 import './app.scss';
+
 
 function App() {
   return (
@@ -23,19 +24,6 @@ function SiteNav() {
         <li><a href="#">Chats</a></li>
       </menu>
     </nav>
-  );
-}
-
-
-type MainProps = PropsWithChildren<{
-  title: string;
-}>;
-function Main({ title, children }: MainProps) {
-  return (
-    <main>
-      <h1>{title}</h1>
-      {children}
-    </main>
   );
 }
 
