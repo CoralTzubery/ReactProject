@@ -30,24 +30,3 @@ ul, ol, menu {
 img {
   display: block;
 }
-
-.chats-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
-  margin: 0;
-  gap: 2rem;
-}
-
-.chat {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
-  img { 
-    border-radius: 50%;
-  }
-}
